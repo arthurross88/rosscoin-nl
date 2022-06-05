@@ -70,7 +70,6 @@ const moreLinks = [
 const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
 
 const IndexPage = () => (
-  <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6SVCV5WCEK"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
