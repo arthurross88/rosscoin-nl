@@ -116,11 +116,7 @@ const IndexPage = () => (
         {i !== moreLinks.length - 1 && <> · </>}
       </React.Fragment>
     ))}
-  </Layout>
-)
-
-export default IndexPage
-<script type="module">
+    <script type="module">
   // Import the functions you need from the SDKs you need
   import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-app.js";
   // TODO: Add SDKs for Firebase products that you want to use
@@ -140,3 +136,8 @@ export default IndexPage
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
 </script>
+  </Layout>
+)
+
+export default IndexPage
+
